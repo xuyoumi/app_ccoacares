@@ -1,0 +1,202 @@
+﻿*{margin:0; padding:0; font-size:14px; color:#959595;}
+a{text-decoration:none;}
+image{border:none;}
+.clearing{clear:both;}
+
+body { width:100%; height:auto; background:#CCCCCC;}
+
+.header{width:960px; margin:0 auto; margin-top:70px; overflow:hidden;}
+
+.top-menu {width:830px; float:left; background-color:#404040;}
+.top-menu ul{list-style:none; height:36px;}
+.top-menu li{float:left; width:67px; margin-top:11px;}
+.top-menu li a{color:#C0C2CC; font-family:Calibri; font-size:13px; font-weight:normal; padding-left:8px; display:block;}
+.top-menu li a:hover{color:#ffc103;}
+.top-menu li a.active{color:#ffc103;}
+
+.top-menu li.clientlogin {width:92px; padding-left:26px;}
+.top-menu li.requestapp  {width:160px;}
+
+.top-search {width:80px; height:36px; background-color:#404040;float:left}
+.top-language {width:50px; height:36px; background-color:#0D0D0D;float:right}
+
+.header-row2 {width:960px; height:60px; background-color:white}
+.ccoa-logo {margin-left:30px; margin-top:9px; width:73px;height:42px;}
+
+.main-menu {width:450px; float:right;}
+.main-menu ul{list-style:none; height:60px;}
+.main-menu li{float:left; width:90px;}
+.main-menu li a{color:#434343; font-family:Calibri; font-size:16px; font-weight:normal; padding-left:22px; padding-top:20px; display:block;}
+.main-menu li a:hover{color:#434343;}
+.main-menu li a.active{color:#62A7D8}
+
+.main-menu li.home {width:70px;}
+
+.content {width:960px; margin:0 auto;}
+.banner-section {width:960px;height:315px; background-image:url('../images/ccoa-banner.png');background-repeat:no-repeat;}
+.banner-text {font-family:"Calibri Light"; font-size:25px; font-weight:100; text-align:center; color:#F4F4F4; padding-top:60px;}
+.banner-text span { color:#FFFFFF; font-size:30px; font-weight:bold}
+
+.banner-services { padding-left:81px; padding-right:81px; }
+.banner-service {float:left;padding-top:50px; width:266px; text-align:center}
+.banner-service p{ font-family:"Chaparral Pro"; font-size:25px; color:white;}
+.banner-service .underline{width:200px; height:3px;background-color:#FFC000; margin-top:6px;  margin:0 auto;}
+
+.situation-section {width:960px;height:340px; background-color:white}
+.situation-section p {font-family:"Calibri Light"; font-size:24px; color:#636363;text-align:center; padding-top:45px;}
+
+.input-blocks {padding-left:81px; padding-right:81px;}
+.input-block {float:left;padding-top:35px; width:266px; text-align:center}
+.input-block img { text-align:center;width:60px;height:60px; }
+.input-block .title {font-family:"Calibri Light"; font-size:20px; color:#0070C0;padding-top:30px;margin:0 auto;}
+.input-block .desc {font-family:"Calibri Light"; font-size:14px; color:#7F7F7F; padding-top:20px;margin:0 auto; width:180px;}
+.input-block .last { width:200px;}
+
+.help-section {width:960px;height:62px; background-color:#0070C0;}
+.help-section p {float:left; font-family:"Calibri Light"; font-size:19px; font-weight:100; color:white; padding-left:165px; padding-top:22px;}
+
+.events-section {width:960px;height:400px; background-color:#F2F2F2}
+.events {float:left; margin-left:52px; padding-top:30px; width:618px;}
+.events .head {padding-left:25px; padding-right:10px;}
+.events .head span{ font-family:"Calibri Light"; font-size:20px; font-weight:normal;}
+.events .head span.gray{color:#7F7F7F; }
+.events .head span.black{color:#262626; }
+
+.events .head .dot-arrow { float:right;}
+.events .head .dot-arrow img { width:10px; height:10px; }
+.events .event { float:left; width:188px; height:250px; margin-left:18px; margin-top:20px; background-repeat:no-repeat;}
+.events .event .detail { width:100%; height:88px; margin-top:127px; background-color:white}
+.events .event .detail .time{ padding-top:12px; padding-left:15px; padding-right:16px; font-family:"Calibri Light"; font-size:14px; font-weight:lighter; color:#7F7F7F;}
+.events .event .detail .desc{ padding-top:8px; padding-left:15px; padding-right:15px; font-family:"Calibri Light"; font-size:15px; color:#262626}
+
+.donate-us {float:left; margin-left:24px; padding-top:30px; width:235px;}
+.donate-us .head span{ font-family:"Calibri Light"; font-size:20px; font-weight:normal;}
+.donate-us .head span.gray{color:#7F7F7F; }
+.donate-us .head span.black{color:#262626; }
+
+.donate-us .donate { width:188px; height:250px; margin-left:8px; margin-top:20px; background-color:white}
+.donate-us .donate .time{ padding-top:15px; font-family:"Calibri Light"; font-size:16px; font-weight:lighter; color:#7F7F7F; text-align:center}
+.donate-us .donate img{ width:150px; height:15px; margin-left:18px; margin-top:10px;}
+.donate-us .donate .desc{ padding-top:12px; font-family:"Calibri Light"; font-size:15px; color:#7F7F7F; text-align:center; width:120px; margin: 10px auto;}
+
+.chat-section {width:960px;height:200px; background-color:#F2F2F2; background-image:url('../images/chat-cross-bg.png'); background-repeat:repeat-x;}
+.chat-section .chat {float:left; width:856px; text-align:center}
+.chat-section .left-arrow {float:left; padding-top: 110px;width: 30px;height: 30px;padding-left: 22px;}
+.chat-section .right-arrow {float:right;padding-top: 110px;width: 30px;height: 30px;padding-right: 22px;}
+.chat-section .chat .chatter {padding-top:15px; font-family:"Calibri Light"; font-size:16px; font-weight:bolder; color:#FEFEFE;}
+.chat-section .chat .title {font-family:"Calibri Light"; font-size:16px; font-weight:normal; color:#7F7F7F;}
+.chat-section .chat .body {padding-top:15px; font-family:"Calibri Light"; font-size:16px; font-weight:lighter; color:#CCCCCC;}
+
+.provide-section {width:824px;height:200px; padding:60px 68px 20px 68px; background-color:#FFFFFF}
+.provided-service {float:left; width:206px; height:120px; text-align:center}
+.provided-service .title {font-family:"Calibri"; font-size:18px; color:#0070C0;margin:0 auto;}
+.provided-service .icon { width:60px; height:60px; margin-top:15px; margin-bottom:10px;}
+.provided-service .brief {width:100px; font-family:"Calibri"; font-size:16px; color:#C0C0C0; margin:0 auto;}
+.provided-service .last {width:160px;}
+
+.expert-section { width:900px; height:196px; padding:30px 30px; background-color:#0099FF;background-image:url('../images/ball-bg.png');background-repeat:repeat;}
+.expert-section .head {width:900px; height:36px; text-align:center;font-family :"Calibri Light"; font-size:22px; font-weight:normal; color:white;}
+.experts .expert {float:left; width:180px; height:160px; text-align:center}
+.expert .potrait {margin-top:18px;}
+.expert .name {margin-top:12px; font-family:"Calibri Light"; font-size:16px; font-weight:bolder; color:#FEFEFE;}
+.expert .title {margin-top:4px; font-family:"Calibri Light"; font-size:16px; font-weight:lighter; color:#CCCCCC;}
+
+.footer-sectoin {width:960px; height:341px; background-image:url('../images/footer.png'); background-repeat:no-repeat}
+.footer-sectoin .social-feed {float:left; width:300px;margin-left:47px;}
+.footer-sectoin .head {margin-left:24px; margin-top:48px; font-family:"Calibri Light"; font-size:16px; font-weight:bold; color:#FFFFFF}
+.footer-sectoin .head span{ font-family:"Calibri Light"; font-size:16px; font-weight:bold; color:#FBBD02}
+.footer-sectoin .contact {float:left;width:266px;}
+
+.footer-sectoin .text { margin-left:45px; margin-top:22px; width:210px;}
+.footer-sectoin .social-feed .text p { font-family:"Calibri"; font-size:14px; color:#CCCCCC; margin-bottom:10px;}
+.footer-sectoin .social-feed .text a { font-family:"Calibri"; font-size:14px; color:#007BB5; margin-bottom:10px;}
+
+.footer-sectoin .contact .text p.label { font-family:"Calibri"; font-size:14px; color:#CCCCCC; margin-bottom:10px;}
+.footer-sectoin .contact .text p.display { font-family:"Calibri"; font-size:16px; color:#CCCCCC; margin-bottom:20px;}
+
+.footer-sectoin .newsletter {float:left;width:300px;margin-right:47px;}
+.newsletter .sign-up { margin-left:32px; padding: 20px 20px; width:206px; height:190px; background-color:#FFC000; border-radius: 3px;}
+.newsletter .sign-up .sign-up-head { padding-top:20px; font-family:"Calibri Light"; font-size:18px; font-weight:bold; color:#484949; }
+.newsletter .sign-up .sign-up-desc { padding-top:25px; font-family:"Calibri Light"; font-size:14px; color:#5C5C5C; }
+.newsletter .sign-up .sign-up-email { padding-top:15px; }
+.newsletter .sign-up .sign-up-button { margin-top:15px; }
+.newsletter .out-links { margin-left:32px; padding: 15px 15px; width:216px; height:36px;}
+.newsletter .out-links img { width:36px; height:36px; padding-left:4px;}
+.newsletter .underline { margin-left:32px; width:245px; height:6px; background-color:#FFC000; border-radius: 2px; }
+
+.bottom-black { width:960px; height:36px; background-color:black }
+
+
+.sample {background-image:url('../../../CCOA_Homepagev1.1.png');background-repeat:no-repeat;background-position:left; height:1500px;background-position-y: -1950px;}
+
+.layer {
+    background-color: rgba(49, 49, 49, 0.84);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+select.custom-dropdown {
+ -webkit-appearance: none;  /*REMOVES DEFAULT CHROME & SAFARI STYLE*/
+ -moz-appearance: none;  /*REMOVES DEFAULT FIREFOX STYLE*/
+ border:1 !important;  /*REMOVES BORDER*/
+ border-color:#4B98CF;
+ color:white;
+ -webkit-border-radius: 5px;
+ border-radius: 5px;
+ font-family:"Calibri Light"; font-size:19px; font-weight:100; 
+ padding:0px 10px;
+ width: 232px;
+ height:35px;
+ margin-left:15px;
+ margin-top:16px;
+ cursor: pointer;
+ background: #0070C0 url('../images/help-me-drop-arrow.png') no-repeat right center;
+ background-position-x:200px;
+ background-size: 18px 10px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA */
+ float:left;
+}
+
+.sign-up-email input[type=text] {
+  padding: 6px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.3s;
+  width:185px;
+}
+.sign-up-email input[type=text]:focus, .sign-up-email input[type=text].focus {
+  border-bottom: solid 2px #969696;
+}
+
+select.custom-dropdown option {font-family:"Calibri Light"; font-size:19px; font-weight:100;}
+
+.help-button {
+    background:url(../images/help-me-button.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:262px;
+    height:35px;
+    margin-left:15px;
+    margin-top:16px;
+}
+
+.help-button:active {   
+    background:url(../images/help-me-button.png) no-repeat;
+}
+
+.sign-up-button {
+    background:url(../images/submit-botton.png) no-repeat;
+    cursor:pointer;
+    border:none;
+    width:200px;
+    height:31px;
+}
+
+.sign-up-button:active {   
+    background:url(../images/submit-botton.png) no-repeat;
+}
+
+
+
